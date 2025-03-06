@@ -1,1 +1,1 @@
-# IT is my frontend  Project
+# It is my frontend  Project
