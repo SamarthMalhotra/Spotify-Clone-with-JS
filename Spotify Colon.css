@@ -1,0 +1,327 @@
+/* Styling for whole Web page*/
+*{
+    margin:0;
+    padding:0;
+  font-family:"Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style: normal;
+}
+/* Styling for main div*/
+.main{
+    margin:0px;
+    padding:0px;
+    background-color: black;
+    display:flex;
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+}
+/* Styling for Sidebar*/
+.sidebar{
+    border-radius:1rem;
+    background-color:black;
+    height:100vh;
+    width:330px;
+    padding:0.5rem;
+}
+/* Styling for main-content*/
+.main-content{
+    border-radius:1rem;
+    height:100vh;
+    background-color:#161616;
+    flex:1;
+    margin-top:0.5rem;
+    overflow:scroll;
+}
+.video-player{
+    width:100%;
+    background-color: blue;
+    position:fixed;
+    bottom:0px;
+    height:35px;
+}
+/*Nav Bar Styling*/
+.nav-bar{
+    background-color:#161616;
+    padding:0.5rem 0.75rem;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+/* Nav Option Styling*/
+.nav-option{
+    height:40px;
+    padding:0.5rem;
+    opacity:0.7;
+}
+/*Nav option Anchor Tag Styling*/
+.nav-option  a{
+  text-decoration: none;
+  color:white;
+  font-size: 1rem;
+  margin-left:1rem;
+}
+/*Nav option icon Styling*/
+.nav-option i{
+    color:white;
+    font-size: 1.25rem;
+}
+/* Nav Option Pseudo Class */
+.nav-option:hover{
+    opacity:1;
+}
+/* Library Box Styling */
+.lib-box{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    margin-top:0.75rem;
+    color:white;
+    border-radius: 0.5rem;
+    background-color:#161616;
+}
+/* Library icon  Box  styling*/
+.lib-icon-box{
+    display: flex;
+    justify-content:space-between;
+    background-color: #161616;
+    height:2rem;
+    padding:0.75rem 0.75rem;
+    border-radius: 0.5rem;
+}
+.lib-icon1 img{
+    height:1.2rem;
+    margin-left:0.75rem;
+}
+.lib-icon1 ,.lib-icon2{
+    display:flex;
+}
+.lib-icon2 i{
+    margin-right: 1rem;
+    opacity:0.7;
+    font-size:1.25;
+}
+.lib-icon1 a{
+    margin-left:1rem;
+    text-decoration: none;
+    color:white;
+    font-size:1rem;
+}
+.lib-icon1{
+    opacity:0.7;
+}
+.lib-icon1:hover,.lib-icon2 i:hover{
+    opacity:1;
+}
+.lib-box1 , .lib-box2{
+    height:8rem;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    background-color:#262626;
+    padding:1rem;
+    border-radius:1rem;
+}
+.box-p1{
+    font-size:1rem;
+    font-weight:600;
+    height:2rem;
+    margin-top:0.25rem;
+}
+.box-p2{
+    font-size:0.80rem;
+    height:2rem;
+    margin-top:0.25rem;
+    opacity:0.9;
+}
+.box1-button1, .box1-button2{
+    border:none;
+    border-radius:0.9rem;
+    background-color:white;
+    padding:0.5rem;
+    font-size:0.75rem;
+    font-weight:600;
+    margin-top:0.75rem;
+    text-align: center;
+}
+.main-box-nav{
+    background-color:#161616;
+    padding:0.1rem 0.25rem ;
+    position:sticky;
+    top:0px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index:2;
+}
+.main-content-nav-img-icon{
+display:flex;
+font-size:1.25rem;
+margin-left:1rem;
+}
+.main-content-nav-img-icon img{
+    margin-left: 0.75rem;
+}
+.main-nav-dark {
+    background-color:black;
+    color:white;
+    font-size:1rem;
+}
+.box1-button1 ,.box1-button2{
+    font-size:0.9rem;
+    margin-right:1rem;
+    font-weight:600;
+}
+.main-content-nav-botton i{
+    color:white;
+    font-size:1rem;
+    margin-right:1rem;
+}
+@media (max-width:1000px)
+{
+    .hide{
+        display:none;
+    }
+}
+.main-box-container1{
+  color:white;
+  margin:1rem 0 1rem 1rem;
+}
+.main-box-container{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-top:0.5rem;
+}
+.card{
+    width:150px;
+    height:250px;
+    border-radius:0.25rem;
+    padding:1rem;
+    background-color:#3a3a3a41;
+    margin:0.5rem 1.25rem;
+}
+.card img{
+    width:100%;
+    border-radius:0.25rem;
+}
+.card-header{
+    font-weight:600;
+    margin:0.5rem 0 0.5rem 0.25rem;
+}
+.card-content{
+    font-size:0.65rem;
+    opacity:0.7;
+    margin:0.5rem 0 0.5rem 0.25rem;
+    line-height:1rem;
+}
+.footer-box{
+   border-top: 4px solid  #47464641;
+   height:100px;
+   width:80%;
+   margin:4rem 1rem;
+}
+.video-player{
+    display:flex;
+    align-items:center;
+    padding: 0.2rem;
+    background-color:black;
+
+}
+   
+.play-bar{
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+.controler{
+    width:25%;
+    height:100%;
+    color:white;
+    display:flex;
+}
+
+.album{
+    display:flex;
+    width:25%;
+    align-items:center;
+    height:100%;
+    padding:0.1rem;
+}
+
+.album-pic{
+    width: 12%;
+    height: 100%;
+    padding: 0.25rem;
+}
+.album-pic img{
+    width:2.25rem;
+    height:2.2rem;
+ }
+ .album-icon{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+    width:12%;
+    color:white;
+    opacity:0.7;
+ }
+ .album-descr{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:20%;
+    font-size:0.6rem;
+    color:white;
+    padding-top: 0.25rem;
+}
+ .album-icon:hover{
+ opacity:1;
+ }
+.play-bar-icon-img{
+    display:flex;
+    justify-content: center;
+    margin-top:0.1rem;
+}
+.play-bar-icon-img img{
+    height:0.8rem;
+    margin-right:1.2rem;
+    opacity:0.72;
+}
+.play-bar-icon-img img:hover{
+    opacity:1;
+}
+.play_bar_range{
+    display:flex;
+    justify-content: center;
+    color:white;
+    font-size:0.75rem;
+    appearance: none;
+}
+#range_bar{
+    width:40%;
+    appearance:none;
+    cursor:pointer;
+    background-color:transparent;
+}
+#range_bar::-webkit-slider-runnable-track{
+
+    height:0.25rem;
+    background-color: #262626;
+    border-radius:20px;
+
+}
+#range_bar::-webkit-slider-thumb{
+    appearance: none;
+    height:1rem;
+    width:1rem;
+    background-color: rgb(2, 224, 2);
+    border-radius:50%;
+    position:relative;
+    top:-7px;
+
+
+}
+
